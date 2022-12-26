@@ -40,6 +40,14 @@ export const Product = styled('div', {
         opacity: 0,
         transition: 'all 0.2s ease-in-out',
 
+        div: {
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'flex-start',
+            gap: '4px',
+        },
+
         strong: {
             fontSize: '$lg',
             color: '$gray300',
@@ -49,6 +57,10 @@ export const Product = styled('div', {
             fontSize: '$xl',
             fontWeight: 'bold',
             color: '$green300',
+        },
+
+        svg: {
+            color: '$white',
         }
     },
 
